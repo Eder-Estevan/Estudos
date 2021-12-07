@@ -2,8 +2,8 @@
 Documentation    Vamos aprender a fazer LOOPS usuando o robot Framework!!
 
 *** Variables ***
-### Indice da lista           0       1         2        3         4
-@{MINHA_LISTA_DE_FRUTAS}    maça   abacaxi   banana   morango   laranja
+### Indice da lista           0       1         2        3         4        5
+@{MINHA_LISTA_DE_FRUTAS}    maça   abacaxi   banana   morango   laranja    Uva
 
 
 *** Keyword ***
@@ -22,8 +22,20 @@ Usando FOR IN RANGE
   END
 
 
-Usando FOR IN LISTA
-    Log To Console      ${\n}
-    FOR  ${FRUTA}    IN  @{MINHA_LISTA_DE_FRUTAS}
-        Log to Console      Minha fruta é:  ${FRUTA}!
-    END
+Usando FOR IN
+
+  Log To Console      ${\n}
+  FOR   ${FRUTA}    IN    @{MINHA_LISTA_DE_FRUTAS}
+      Log to Console      Minha fruta é: ${FRUTA}!
+      No Operation
+  END
+
+  
+
+Usando FOR IN ENUMERATE
+
+  Log To Console      ${\n}
+  FOR  ${INDICE}   ${FRUTA}    IN ENUMERATE   @{MINHA_LISTA_DE_FRUTAS}
+      Log to Console      Minha fruta é: ${INDICE} --> ${FRUTA}!
+      No Operation
+  END
