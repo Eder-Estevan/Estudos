@@ -4,6 +4,9 @@ Documention         Suite para exemplificar o suao de IF nos testes
 ...                 e precisamos dele, entaõ vams ver como é!
 ...                 IF: use com moderação!
 
+Library		          SeleniumLibrary
+Library             FakerLibrary
+
 
 *** Variable ***
 @{FRUTAS}  maça   banana   uva   abacaxi
