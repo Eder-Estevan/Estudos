@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation      Vamos aprender a fazer LOOPS usuando o robot Framework!!
-Resource           ../resource/Resource_33_Loops_Repeat_For_Range.robot
+Resource           ../resource/Resource_34_Loops_For_Listas.robot
 
 
 *** Variables ***
@@ -10,23 +10,27 @@ Resource           ../resource/Resource_33_Loops_Repeat_For_Range.robot
 
 *** Test Case ***
 
-Teste de REPEAT KEYWORD
-  [Tags]  Repeat1
+# Teste de REPEAT KEYWORD
+#   [Tags]  Repeat1
 
-  [Documentation]   Chama uma mesma KEYWORD várias vezes
-  Usando Repeat Keyword
+#   [Documentation]   Chama uma mesma KEYWORD várias vezes
+#   Usando Repeat Keyword
 
-Teste de For do tipo IN RANGE
-  [Tags]  ForInRange1
+# Teste de For do tipo IN RANGE
+#   [Tags]  ForInRange1
   
-  [Documentation]  Faz um loop dentro de um intervaloqeu voce passar
-  Usando FOR IN RANGE
+#   [Documentation]  Faz um loop dentro de um intervaloqeu voce passar
+#   Usando FOR IN RANGE
 
-# Teste de FOR de tipo IN
-#
-# Teste de FOR do tipo IN ENUMERATE
-#
-# Teste de Sair do For
+Teste de FOR de tipo IN
+    [Tags]  ForInLista1
+
+    [Documentation]     Faz um loop percorrendo a lista que você passar
+    Usando FOR IN LISTA
+
+Teste de FOR do tipo IN ENUMERATE
+
+Teste de Sair do For
 
 #
 # *** Keyword ***
