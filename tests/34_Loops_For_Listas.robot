@@ -35,18 +35,11 @@ Teste de FOR do tipo IN ENUMERATE
     Usando FOR IN ENUMERATE
 
 
-# Teste de Sair do For
+Teste de Sair do For
+    [Tags]   ForInExit1
+
+    [Documentation]     Você controla quando o FOR deve se encerrar antes de terminar todos os LOOPS
+    Usando FOR IN com EXIT FOR LOOP IF
 
 #
-# *** Keyword ***
-# Teste de REPEAT KEYWORD
-#   Log to Console ${\n}
-#   Repeat Keyword    4x    Log To Console    Minha repetição da keyword!!!
-#
-#
-# Usando FOR IN RANGE
-#   Log to Console ${\n}
-#   FOR  ${CONTADOR}    IN  RANGE  0  5
-#       Log To Console    Minha posição agora é: ${CONTADOR}
-#       Log  Minha posição agora é: ${CONTADOR}
-#   END
+

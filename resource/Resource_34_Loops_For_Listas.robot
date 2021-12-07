@@ -30,7 +30,7 @@ Usando FOR IN
       No Operation
   END
 
-  
+
 
 Usando FOR IN ENUMERATE
 
@@ -38,4 +38,13 @@ Usando FOR IN ENUMERATE
   FOR  ${INDICE}   ${FRUTA}    IN ENUMERATE   @{MINHA_LISTA_DE_FRUTAS}
       Log to Console      Minha fruta é: ${INDICE} --> ${FRUTA}!
       No Operation
+  END
+
+
+Usando FOR IN com EXIT FOR LOOP IF
+
+  Log To Console      ${\n}
+  FOR  ${INDICE}   ${FRUTA}    IN ENUMERATE   @{MINHA_LISTA_DE_FRUTAS}
+      Log to Console      Minha fruta é: ${INDICE} --> ${FRUTA}!
+      Exit For Loop If     '${FRUTA}'=='banana'
   END
