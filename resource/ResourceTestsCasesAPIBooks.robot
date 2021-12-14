@@ -16,7 +16,7 @@ ${URL_API}            https://fakerestapi.azurewebsites.net/api/v1/
  ### SETUP E TEARDOWNS
 
 Conectar API
-  Create Session    fakerAPI    ${URL_API}
+  Create Session     fakerAPI     ${URL_API}
 
 
 ### Ações

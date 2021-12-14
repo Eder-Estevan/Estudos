@@ -1,6 +1,6 @@
 *** Settings ***
 # Documentation    Documentação da API: https://fakerestapi.azurewebsites.net/index.html
-Resource         ../resource/ResourceTestsCaseAPIBooks.robot
+Resource         ../resource/ResourceTestsCasesAPIBooks.robot
 Suite Setup       Conectar API
 
 *** Variable ***

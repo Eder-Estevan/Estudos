@@ -19,7 +19,7 @@ Teste de REPEAT KEYWORD
 Teste de For do tipo IN RANGE
   [Tags]  ForInRange1
   
-  [Documentation]  Faz um loop dentro de um intervaloqeu voce passar
+  [Documentation]  Faz um loop dentro de um intervalo que voce passar
   Usando FOR IN RANGE
 
 # Teste de FOR de tipo IN
